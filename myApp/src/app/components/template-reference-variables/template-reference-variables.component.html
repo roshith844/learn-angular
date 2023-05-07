@@ -1,0 +1,9 @@
+<h1>Template Reference Variables</h1>
+<p>A template reference variable is often a reference to a DOM element within a template. Here is an example</p>
+<label>
+    <input #input type="text">
+</label>
+<button (click)="showText(input.value)">Reverse the String</button>
+<h1 *ngIf="variableForShowingInput != ''">the revesed form of {{ input.value }} is
+    <span [ngStyle]="{'color': 'red'}">{{ variableForShowingInput}}</span>
+</h1>
