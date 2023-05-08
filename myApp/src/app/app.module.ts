@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { TemplateReferenceVariablesComponent } from './components/template-reference-variables/template-reference-variables.component';
 import { PipesComponent } from './components/pipes/pipes.component';
+import { DirectivesComponent } from './components/directives/directives.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     TemplateReferenceVariablesComponent,
-    PipesComponent
+    PipesComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,

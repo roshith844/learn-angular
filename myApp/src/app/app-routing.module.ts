@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { TemplateReferenceVariablesComponent } from './components/template-reference-variables/template-reference-variables.component';
 import { PipesComponent } from './components/pipes/pipes.component';
+import { DirectivesComponent } from './components/directives/directives.component';
 
 const routes: Routes = [
   {
@@ -10,7 +11,8 @@ const routes: Routes = [
   },
   { path: 'home', component: HomeComponent },
   { path: 'temp', component: TemplateReferenceVariablesComponent },
-  { path: 'pipes', component: PipesComponent }
+  { path: 'pipes', component: PipesComponent },
+  { path: 'directives', component: DirectivesComponent }
 ];
 
 @NgModule({
