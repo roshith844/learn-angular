@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { TemplateReferenceVariablesComponent } from './components/template-reference-variables/template-reference-variables.component';
+import { PipesComponent } from './components/pipes/pipes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    TemplateReferenceVariablesComponent
+    TemplateReferenceVariablesComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
