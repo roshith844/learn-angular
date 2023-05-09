@@ -5,6 +5,7 @@ import { TemplateReferenceVariablesComponent } from './components/template-refer
 import { PipesComponent } from './components/pipes/pipes.component';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
+import { RouteGuardsComponent } from './components/route-guards/route-guards.component';
 
 const routes: Routes = [
   {
@@ -14,7 +15,9 @@ const routes: Routes = [
   { path: 'temp', component: TemplateReferenceVariablesComponent },
   { path: 'pipes', component: PipesComponent },
   { path: 'directives', component: DirectivesComponent },
-  { path: 'lifecycle', component: LifecycleComponent }
+  { path: 'lifecycle', component: LifecycleComponent },
+  { path: 'routeguards', component: RouteGuardsComponent },
+  
 ];
 
 @NgModule({

@@ -8,6 +8,7 @@ import { TemplateReferenceVariablesComponent } from './components/template-refer
 import { PipesComponent } from './components/pipes/pipes.component';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
+import { RouteGuardsComponent } from './components/route-guards/route-guards.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
     TemplateReferenceVariablesComponent,
     PipesComponent,
     DirectivesComponent,
-    LifecycleComponent
+    LifecycleComponent,
+    RouteGuardsComponent
   ],
   imports: [
     BrowserModule,
